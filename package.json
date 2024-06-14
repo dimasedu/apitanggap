@@ -37,6 +37,7 @@
     "cookie": "^0.6.0",
     "cookie-signature": "^1.0.6",
     "core-util-is": "^1.0.3",
+    "cors": "^2.8.5",
     "cross-spawn": "^7.0.3",
     "d": "^1.0.2",
     "debug": "^2.6.9",
@@ -220,7 +221,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon index"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",

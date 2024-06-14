@@ -3,7 +3,7 @@ const baseConfig =  require('./config/base.config');
 
 //import express
 const express = require('express')
-
+const cors = require('cors');
 const app = express();
 const port = 5000;
 const urlApi = "/api";
@@ -11,6 +11,7 @@ const urlApi = "/api";
 const multer = require('multer');
 const upload = multer();
 
+app.use(cors());
 app.use(upload.array());
 
 const bodyParser = require("body-parser")
